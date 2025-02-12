@@ -9,6 +9,7 @@ const Home = () => (
         <div className="app-todo-list"> 
         <h1>To Do List</h1>
         <h2>We help finishing your projects</h2>
+        Tack!
           <ListToDo/>
         </div>
     </div>
