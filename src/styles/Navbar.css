@@ -1,0 +1,16 @@
+.navbar a{
+    gap: 4rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 10px 5px 5px green;
+    text-decoration: none;
+    font-weight:100;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
