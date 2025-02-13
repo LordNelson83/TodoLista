@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import TodoForm from './TodoForm';
 import TodoList from './TodoList';
+
 import "../styles/listToDo.css";
 
 const ListToDo = () => {
@@ -44,7 +45,7 @@ const ListToDo = () => {
     <>
       <TodoForm onSubmit={addToDo} />
       <div className='todo-list-container'>
-        {allCompleted &&<p>Congratulations.. you are done!</p>}
+        {allCompleted && <p className='good'>Congratulations.. you are done!</p>}
         {todos.map((todo) => (
           <TodoList 
             key={todo.id}

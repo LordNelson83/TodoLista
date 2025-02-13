@@ -2,6 +2,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
 }
+.good{
+   color: red;
+  font-size: 1.5em;
+  animation-duration: 3s;
+  animation-name: slidein;
+     }
+      
+   @keyframes slidein {
+   from {
+    margin-left: 35%;
+    width: 200%;
+      }
+      
+  to {
+  margin-left: 0%;
+  width: 100%;
+ }
+      }
